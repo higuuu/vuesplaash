@@ -8,6 +8,10 @@ docker-compose up -d
 
 docker-compose exec vuesplash_web bash
 
+### うまくいかない場合
+
+docker-machine regenerate-certs default
+
 ### Laravel プロジェクトを作成
 
 composer create-project --prefer-dist laravel/laravel .
